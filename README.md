@@ -61,7 +61,6 @@ Threshold values are initially estimated by recording EMG signals with a measure
   <kbd>
     <img width="300" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/Thresholding 1.png">
   </kbd>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
     <img width="335" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/Thresholding 2.png">
   </kbd>
