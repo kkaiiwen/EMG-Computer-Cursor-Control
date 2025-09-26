@@ -61,13 +61,16 @@ Threshold values are initially estimated by recording EMG signals with a measure
   <kbd>
     <img width="300" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/Thresholding 1.png">
   </kbd>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
     <img width="335" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/Thresholding 2.png">
   </kbd>
 </p>
 <p align="center"> 
-  <text> Figure 2a: EMG signal with no muscle contraction &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 2b: EMG signal with muscle contraction </text>
+  <text> Figure 2a: EMG signal with no muscle contraction </text>
+</p>
+<p align="center">
+  <text> Figure 2b: EMG signal with muscle contraction </text>
 </p>
 
 <div align="center">
