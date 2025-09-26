@@ -26,7 +26,7 @@ Circuit Diagram
 
 <p align="center">
   <kbd>
-    <img width="660" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/EMG Circuit Diagram.jpg">
+    <img width="800" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/EMG Circuit Diagram.jpg">
   </kbd>
 </p>
 <p align="center">
@@ -46,7 +46,7 @@ Each channel follows the same circuit design, with electrodes placed on differen
 The non-inverting amplifier resistor R is adjusted for each channel to provide the appropriate gain based on the EMG signal strength of the corresponding muscle. Weaker signals are amplified with higher gain, while stronger signals are limited to ensure the output remains within the Arduino’s 0-5 V input range.
 
 | Cursor Action | Movement                  | Muscle Stimulated          | Resistor Value R (kΩ) | Non-Inverting Amplifier Gain | Analog Input Pin |
-|---------------|---------------------------|----------------------------|------------------------|------------------------------|------------------|
+|:-------------:|:-------------------------:|:--------------------------:|:----------------------:|:----------------------------:|:----------------:|
 | Click         | Finger flexion            | Flexor digitorum profundus | 33                     | 303                          | A0               |
 | Left          | Wrist flexion (towards left)  | Flexor carpi ulnaris       | 27                     | 370                          | A1               |
 | Right         | Wrist extension (towards right) | Flexor carpi radialis      | 47                     | 213                          | A2               |
@@ -59,20 +59,28 @@ Threshold values are initially estimated by recording EMG signals with a measure
 
 <p align="center">
   <kbd>
-    <img width="330" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/Thresholding 1.png">
-    <img width="370" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/Thresholding 2.png">
+    <img width="300" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/Thresholding 1.png">
+  </kbd>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd>
+    <img width="335" src="https://github.com/kkaiiwen/EMG-Computer-Cursor-Control/blob/main/Graphics/Thresholding 2.png">
+  </kbd>
 </p>
-<p> 
-  <text> Figure 2a: EMG signal with no muscle contraction &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 2b: EMG signal with muscle contraction </text>
+<p align="center"> 
+  <text> Figure 2a: EMG signal with no muscle contraction &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 2b: EMG signal with muscle contraction </text>
 </p>
 
+<div align="center">
+
 | Cursor Action | Average Analog Value (0-5 V) | Digital Value (0-1023) |
-|---------------|-------------------------------|-------------------------|
+|:-------------:|:-----------------------------:|:-----------------------:|
 | Click         | 3.231                         | 661                     |
 | Left          | 3.519                         | 720                     |
 | Right         | 3.192                         | 653                     |
 | Up            | 2.942                         | 602                     |
 | Down          | 2.233                         | 457                     |
+
+</div>
 
 Testing trial process
 1.	Connect electrodes to the circuit and monitor signals on the MyDaq oscilloscope.
