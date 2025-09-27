@@ -84,7 +84,7 @@ Threshold values are initially estimated by recording EMG signals with a measure
 
 </div>
 
-Testing trial process
+### Testing trial process
 1. Connect electrodes to the circuit and monitor signals on the MyDaq oscilloscope.
 2. Record 10 peak-to-peak voltage values for the target contraction.
 3. Calculate the average of the 10 values.
