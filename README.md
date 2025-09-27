@@ -6,7 +6,7 @@ An Arduino-based EMG Computer Cursor Control System programmed in C++. This proj
 
 ## Requirements
 
-Hardware
+### Hardware
 1. Arduino Leonardo (supports native USB HID for mouse control)
 2. EMG electrode pairs and reference electrodes
 3. Instrumentation amplifier (e.g. INA129)
@@ -16,13 +16,13 @@ Hardware
 7. Power supply
 8. NI MyDaq (or equivalent DAQ/oscilloscope for signal testing)
 
-Software
+### Software
 1. Arduino IDE
 2. Arduino Mouse library (#include <Mouse.h>)
 
 ## Circuit Specifications
 
-Circuit Diagram
+### Circuit Diagram
 
 <p align="center">
   <kbd>
