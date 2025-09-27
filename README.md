@@ -7,18 +7,18 @@ An Arduino-based EMG Computer Cursor Control System programmed in C++. This proj
 ## Requirements
 
 Hardware
-1.	Arduino Leonardo (supports native USB HID for mouse control)
-2.	EMG electrode pairs and reference electrodes
-3.	Instrumentation amplifier (e.g. INA129)
-4.	Operational amplifiers (e.g. TL081, TL082)
-5.	Passive components (resistors, capacitors, diodes)
-6.	Breadboards and jumper wires
-7.	Power supply
-8.	NI MyDaq (or equivalent DAQ/oscilloscope for signal testing)
+1. Arduino Leonardo (supports native USB HID for mouse control)
+2. EMG electrode pairs and reference electrodes
+3. Instrumentation amplifier (e.g. INA129)
+4. Operational amplifiers (e.g. TL081, TL082)
+5. Passive components (resistors, capacitors, diodes)
+6. Breadboards and jumper wires
+7. Power supply
+8. NI MyDaq (or equivalent DAQ/oscilloscope for signal testing)
 
 Software
-1.	Arduino IDE
-2.	Arduino Mouse library (#include <Mouse.h>)
+1. Arduino IDE
+2. Arduino Mouse library (#include <Mouse.h>)
 
 ## Circuit Specifications
 
@@ -85,24 +85,24 @@ Threshold values are initially estimated by recording EMG signals with a measure
 </div>
 
 Testing trial process
-1.	Connect electrodes to the circuit and monitor signals on the MyDaq oscilloscope.
-2.	Record 10 peak-to-peak voltage values for the target contraction.
-3.	Calculate the average of the 10 values.
-4.	Test other movements to check for unwanted activation.
-5.	If interference occurred, compare unwanted signal amplitude with the desired signal.
-6.	If the unwanted signal was much smaller, accept the placement. If similar, either adjust the gain or select a new electrode position.
+1. Connect electrodes to the circuit and monitor signals on the MyDaq oscilloscope.
+2. Record 10 peak-to-peak voltage values for the target contraction.
+3. Calculate the average of the 10 values.
+4. Test other movements to check for unwanted activation.
+5. If interference occurred, compare unwanted signal amplitude with the desired signal.
+6. If the unwanted signal was much smaller, accept the placement. If similar, either adjust the gain or select a new electrode position.
 
 During testing, thresholds are refined to ensure reliable detection of muscle activity while reducing false activations. This leads to differences between the initial estimates and the final values used in the EMG Cursor Control Programme.
 
 ## Usage
 
-1.	Place electrodes on the target muscles.
-2.	Record EMG signals with MyDaq/oscilloscope to set initial thresholds and match your own EMG signal strength.
-3.	Check for cross-activation and adjust electrode placement or amplifier gain if needed.
-4.	Update the threshold values in the EMG Cursor Control Programme with your calibrated values.
-5.	Connect the Arduino Leonardo to your PC.
-6.	Upload the EMG Cursor Control Programme to the Arduino.
-7.	Contract the mapped muscle to trigger cursor movements (left, right, up, down) or a click.
-8.	Fine-tune thresholds in the programme if necessary.
+1. Place electrodes on the target muscles.
+2. Record EMG signals with MyDaq/oscilloscope to set initial thresholds and match your own EMG signal strength.
+3. Check for cross-activation and adjust electrode placement or amplifier gain if needed.
+4. Update the threshold values in the EMG Cursor Control Programme with your calibrated values.
+5. Connect the Arduino Leonardo to your PC.
+6. Upload the EMG Cursor Control Programme to the Arduino.
+7. Contract the mapped muscle to trigger cursor movements (left, right, up, down) or a click.
+8. Fine-tune thresholds in the programme if necessary.
 
 
