@@ -105,3 +105,4 @@ During testing, thresholds are refined to ensure reliable detection of muscle ac
 7. Contract the mapped muscle to trigger cursor movements (left, right, up, down) or a click.
 8. Fine-tune thresholds in the programme if necessary.
 
+
