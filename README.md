@@ -103,6 +103,6 @@ During testing, thresholds are refined to ensure reliable detection of muscle ac
 5. Connect the **Arduino Leonardo** to your PC.
 6. Upload the **EMG Cursor Control Program** to the Arduino.
 7. Contract the mapped muscle to trigger cursor movements (left, right, up, down) or a click.
-8. Fine-tune thresholds in the program if necessary.
+8. Fine-tune the thresholds in the program if necessary.
 
 
