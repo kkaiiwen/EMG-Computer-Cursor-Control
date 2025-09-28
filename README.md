@@ -92,17 +92,17 @@ Threshold values are initially estimated by recording EMG signals with a measure
 5. If interference occurred, compare unwanted signal amplitude with the desired signal.
 6. If the unwanted signal was much smaller, accept the placement. If similar, either adjust the gain or select a new electrode position.
 
-During testing, thresholds are refined to ensure reliable detection of muscle activity while reducing false activations. This leads to differences between the initial estimates and the final values used in the EMG Cursor Control Programme.
+During testing, thresholds are refined to ensure reliable detection of muscle activity while reducing false activations. This leads to differences between the initial estimates and the final values used in the EMG Cursor Control Program.
 
 ## Usage
 
 1. Place electrodes on the target muscles.
 2. Record EMG signals with MyDaq/oscilloscope to set initial thresholds and match your own EMG signal strength.
 3. Check for cross-activation and adjust electrode placement or amplifier gain if needed.
-4. Update the threshold values in the **EMG Cursor Control Programme** with your calibrated values.
+4. Update the threshold values in the **EMG Cursor Control Program** with your calibrated values.
 5. Connect the **Arduino Leonardo** to your PC.
-6. Upload the **EMG Cursor Control Programme** to the Arduino.
+6. Upload the **EMG Cursor Control Program** to the Arduino.
 7. Contract the mapped muscle to trigger cursor movements (left, right, up, down) or a click.
-8. Fine-tune thresholds in the programme if necessary.
+8. Fine-tune thresholds in the program if necessary.
 
 
